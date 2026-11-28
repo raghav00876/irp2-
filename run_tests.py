@@ -9,6 +9,15 @@ tests = [
     ("p3_digit_sum", "p3_input.txt", "p3_expected.txt"),
     ("p4_pair_count", "p4_input.txt", "p4_expected.txt"),
 ]
+tests = [
+    ("p1_reverse_words", "p1_input.txt", "p1_expected.txt"),
+    ("p2_binary_search", "p2_input.txt", "p2_expected.txt"),
+    ("p3_digit_sum", "p3_input.txt", "p3_expected.txt"),
+    ("p4_pair_count", "p4_input.txt", "p4_expected.txt"),
+    ("p4_pair_count", "p4_duplicates_input.txt", "p4_duplicates_expected.txt"),
+    ("p4_pair_count", "p4_negative_input.txt", "p4_negative_expected.txt"),
+]
+
 
 passed = 0
 failed = 0
@@ -54,3 +63,4 @@ if failed:
     sys.exit(1)
 
 print("All tests passed!")
+
